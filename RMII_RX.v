@@ -22,7 +22,7 @@ module RMII_RX (
         output wire [15:0] succ rx_count_gray, // 16bit, gray-code
 
         // overflowed frame counter
-        output wire [15:0] buff_OF_count_gray, // 16bit, gray-code
+        output wire [15:0] buff_OF_count_gray  // 16bit, gray-code
     );
 
     reg [15:0] succ_rx_count_reg;

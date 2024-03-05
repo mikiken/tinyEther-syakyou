@@ -23,7 +23,7 @@ module RMII_TX #(
 
         // monitor signal
         output wire [15:0] succ_tx_count_gray, // success TX frame counter
-        output wire [15:0] fail_tx_count_gray, // fail TX frame counter
+        output wire [15:0] fail_tx_count_gray  // fail TX frame counter
     );
 
     reg TXD0_reg;

@@ -39,14 +39,14 @@ module RMII_TX #(
     my_bin2gray #(
                     .WIDTH(16)
                 )
-                succ_gray(
+                succ_gray (
                     .din(succ_tx_count_reg),
                     .dout(succ_tx_count_gray)
                 );
     my_bin2gray #(
                     .WIDTH(16)
                 )
-                fail_gray(
+                fail_gray (
                     .din(fail_tx_count_reg),
                     .dout(fail_tx_count_gray)
                 );

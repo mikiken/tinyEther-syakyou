@@ -30,14 +30,14 @@ module RMII_RX (
     my_bin2gray #(
                     .WIDTH(16)
                 )
-                succ_gray(
+                succ_gray (
                     .din(succ_rx_count_reg),
                     .dout(succ_rx_count_gray)
                 );
     my_bin2gray #(
                     .WIDTH(16)
                 )
-                buff_OF_gray(
+                buff_OF_gray (
                     .din(buff_OF_count_reg),
                     .dout(buff_OF_count_gray)
                 );
